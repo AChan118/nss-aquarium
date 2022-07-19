@@ -1,0 +1,58 @@
+body{
+    font-family: 'Arial Narrow Bold', sans-serif; 
+    padding: 20px;
+    background-image: url(https://www.georgiaaquarium.org/wp-content/uploads/2019/05/GAQ-Digital-Marketing-201-1-1024x683.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+    font-size: xx-large;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+   
+}
+.fish, .location{
+    flex-basis: 16%;
+    border: 1px dotted rgba(0, 0, 0, 0.842);
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center;
+    align-items: flex-start;
+    background-color: rgba(1, 213, 250, 0.877);
+    flex-direction: column;
+    border-radius: 3em;
+    max-height: 450px ;
+    min-height: 450px;
+}
+.fishlist, .harvestLocation {
+    display: Flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+   
+   
+}
+h2{
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(6, 9, 212, 0.37);
+    background-size: auto;
+    border-radius: 69em;
+    max-width: 500px;
+        
+
+}
+img{
+    max-width: 250px;
+    border-radius: 1em;
+}
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
